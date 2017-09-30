@@ -1,0 +1,113 @@
+
+
+button{
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}
+
+.container  {
+
+}
+.ImgCard    {
+    position: fixed;
+    top: 10%;
+    height: 80vh;
+    width: 17.5%;
+    padding: 0;
+}
+
+ .Img1 {
+    width: 100%;
+     height: 100%;
+     background-image: url("./MainPhoto.jpg");
+     background-size: 295%;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     transition: 1.5s ease;
+
+ }
+.Img1:hover   {
+    background-size: 286%;
+    transition: 1s ease;
+}
+
+.Img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./MainPhoto2.jpg");
+    background-size: 400%;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.Img3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./MainPhoto3.jpg");
+    background-size: 500%;
+    background-repeat: no-repeat;
+    background-position: -300px -100px ;
+    transition: 1.5s ease;
+
+}
+.Img3:hover {
+    background-size: 515%;
+    transition: 1s ease;
+}
+.Img4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./MainPhoto4.jpg");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 1.4s ease;
+
+}
+.Img4:hover   {
+    background-size: 215%;
+    transition: 1s ease;
+}
+ .BioCard    {
+     position: fixed;
+     right: 3%;
+     top: 10%;
+     height: 80vh;
+     width: 37%;
+ }
+ .Bio   {
+     margin: 10px 0;
+    width: 100%;
+     text-align: justify;
+ }
+ h5 {
+     text-align: center;
+     //font-family: 'Cinzel', serif;
+     //font-family: 'Poiret One', cursive;
+     font-family: 'Playfair Display SC', serif;
+     font-size: 30px;
+ }
+ h6 {
+     text-align: center;
+
+     font-family: 'Cinzel', serif;
+     font-size: 15px;
+ }
+ p{
+     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+     line-height: 20px;
+ }
+
+ .inline    {
+     display: inline-flex;
+ }
+ .bold  {
+     margin-right: 5px;
+ }
+
+ md-icon    {
+     margin-right: 5px;
+ }

@@ -1,0 +1,148 @@
+.back-button    {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    size: 20px;
+    z-index: 1;
+}
+
+md-grid-list    {
+    width: 65%;
+    margin: 15vh 15.5% 0;
+}
+md-grid-tile    {
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-image: url("./Faceless God.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    transition: 1.4s ease;
+}
+.banner:hover {
+
+}
+
+
+.Img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./Office.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 1.4s ease;
+
+}
+.Img2:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.Img1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./sekhem.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 1.4s ease;
+
+}
+.Img1:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.Img3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./pool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    transition: 1.4s ease;
+
+}
+.Img3:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.Img4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./Desert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    transition: 1.4s ease;
+
+}
+.Img4:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.Img5 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./gamberger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    transition: 1.4s ease;
+
+}
+.Img5:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.Img6 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./Carmensita.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    transition: 1.4s ease;
+
+}
+.Img6:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.Img7 {
+     width: 100%;
+     height: 100%;
+     background-image: url("./La Palma.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 30%;
+     transition: 1.4s ease;
+
+ }
+.Img7:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
+.Img8 {
+    width: 100%;
+    height: 100%;
+    background-image: url("./GamTitle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    transition: 1.4s ease;
+
+}
+.Img8:hover   {
+    background-color: transparent;
+    transition: 1s ease;
+}
