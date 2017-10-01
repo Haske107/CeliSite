@@ -1,45 +1,52 @@
-<md-grid-list cols="4" rowHeight="1:1" [gutterSize]="10">
-  <md-grid-tile [colspan]="4" [rowspan]="1">
-    <md-card class="banner">
+<div     (scroll)="onScroll($event)"
+        class="wrapper"
+        [ngStyle]=" {'background': 'linear-gradient(to top, '+color+', black)'}">
 
-    </md-card>
-  </md-grid-tile>
-  <md-grid-tile [colspan]="1" [rowspan]="2">
-    <md-card class="Img1">
 
-    </md-card>
-  </md-grid-tile>
-  <md-grid-tile [colspan]="3" [rowspan]="1">
-    <md-card class="Img3">
+  <md-grid-list cols="4" rowHeight="1:1" [gutterSize]="10">
+    <md-grid-tile [colspan]="4" [rowspan]="1">
+      <md-card class="banner">
 
-    </md-card>
-  </md-grid-tile>
-  <md-grid-tile [colspan]="2" [rowspan]="1">
-    <md-card class="Img5">
+      </md-card>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="1" [rowspan]="2">
+      <md-card class="Img1" >
 
-    </md-card>
-  </md-grid-tile>
-  <md-grid-tile [colspan]="1" [rowspan]="1">
-    <md-card class="Img8">
+      </md-card>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="3" [rowspan]="1">
+      <md-card class="Img3">
 
-    </md-card>
-  </md-grid-tile>
-  <md-grid-tile [colspan]="2" [rowspan]="1">
-    <md-card class="Img4">
+      </md-card>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="2" [rowspan]="1">
+      <md-card class="Img5">
 
-    </md-card>
-  </md-grid-tile>
-  <md-grid-tile [colspan]="2" [rowspan]="2">
-    <md-card class="Img6">
+      </md-card>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="1" [rowspan]="1">
+      <md-card class="Img8">
 
-    </md-card>
-  </md-grid-tile>
-  <md-grid-tile [colspan]="2" [rowspan]="1">
-    <md-card class="Img7">
+      </md-card>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="2" [rowspan]="1">
+      <md-card class="Img4">
 
-    </md-card>
-  </md-grid-tile>
-</md-grid-list>
+      </md-card>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="2" [rowspan]="2">
+      <md-card class="Img6">
+
+      </md-card>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="2" [rowspan]="1">
+      <md-card class="Img7">
+
+      </md-card>
+    </md-grid-tile>
+  </md-grid-list>
+</div>
+
 
 <md-icon md-font-library="material-icons" class="back-button" routerLink="/Landing">arrow_back</md-icon>
 
