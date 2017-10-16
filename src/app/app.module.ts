@@ -7,7 +7,8 @@ import { MainGridComponent } from './main-grid/main-grid.component';
 import { ItempageComponent } from './itempage/itempage.component';
 import {AppRouter} from "./app.router";
 import {AlertModule} from "ngx-bootstrap";
-import {MdButtonModule, MdCardModule, MdGridListModule, MdIconModule} from "@angular/material";
+import {MatTooltipModule, MatCardModule, MatButtonModule, MatIconModule, MatGridListModule} from "@angular/material";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -18,9 +19,10 @@ import {MdButtonModule, MdCardModule, MdGridListModule, MdIconModule} from "@ang
 
   ],
   imports: [
+      BrowserAnimationsModule,
       BrowserModule,
       AppRouter,AlertModule.forRoot(),
-      MdCardModule, MdButtonModule, MdIconModule, MdGridListModule
+      MatCardModule, MatButtonModule, MatIconModule, MatGridListModule,MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

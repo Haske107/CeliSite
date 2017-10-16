@@ -1,4 +1,8 @@
+.forward-button    {
 
+    size: 20px;
+    z-index: 1;
+}
 
 button{
     position: absolute;
@@ -7,7 +11,7 @@ button{
 }
 
 .container  {
-
+background-color: whitesmoke;
 }
 .ImgCard    {
     position: fixed;
@@ -21,85 +25,74 @@ button{
     width: 100%;
      height: 100%;
      background-image: url("./MainPhoto.jpg");
-     background-size: 295%;
+     background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 50%;
      transition: 1.5s ease;
 
  }
-.Img1:hover   {
-    background-size: 286%;
-    transition: 1s ease;
-}
-
 .Img2 {
     width: 100%;
     height: 100%;
     background-image: url("./MainPhoto2.jpg");
-    background-size: 400%;
-
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-
 .Img3 {
     width: 100%;
     height: 100%;
     background-image: url("./MainPhoto3.jpg");
-    background-size: 500%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: -300px -100px ;
+    background-position: -250px;
     transition: 1.5s ease;
 
-}
-.Img3:hover {
-    background-size: 515%;
-    transition: 1s ease;
 }
 .Img4 {
     width: 100%;
     height: 100%;
     background-image: url("./MainPhoto4.jpg");
-    background-size: 200%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: 1.4s ease;
 
 }
-.Img4:hover   {
-    background-size: 215%;
-    transition: 1s ease;
-}
- .BioCard    {
-     position: fixed;
-     right: 3%;
-     top: 10%;
-     height: 80vh;
-     width: 37%;
- }
+
+
  .Bio   {
-     margin: 10px 0;
+     margin: 30px 0;
     width: 100%;
      text-align: justify;
+     font-size: 14px;
+
  }
  h5 {
      text-align: center;
      //font-family: 'Cinzel', serif;
      //font-family: 'Poiret One', cursive;
      font-family: 'Playfair Display SC', serif;
-     font-size: 30px;
+     font-size: 45px;
+     color: #1c1c1c;
+
  }
  h6 {
      text-align: center;
-
      font-family: 'Cinzel', serif;
      font-size: 15px;
+     color: #1c1c1c;
+
  }
  p{
      font-family: 'Raleway', sans-serif;
     font-size: 12px;
      line-height: 20px;
+     color: #1c1c1c;
  }
+
+
+
 
  .inline    {
      display: inline-flex;
@@ -108,6 +101,56 @@ button{
      margin-right: 5px;
  }
 
- md-icon    {
+ mat-icon    {
      margin-right: 5px;
  }
+
+
+
+
+.titlecard {
+    position: fixed;
+    right: 3%;
+    top: 10vh;
+    height: 60vh;
+    width: 37%;
+    background-color: white;
+    overflow-y: scroll;
+}
+ .contactbuttons {
+     position: fixed;
+     height: 25px;
+     width: 135px;
+     bottom: 20px;
+     left: calc(50% - 67.5px);
+     background-color: #1c1c1c;
+     padding: 0;
+ }
+
+
+.portfoliocard    {
+    position: fixed;
+    right: 3%;
+    top: 72vh;
+    height: 18vh;
+    width: 37%;
+    background-color: white;
+}
+.portfolio-button   {
+    position: absolute;
+    top: calc(60% - 15px);
+    right: calc(50% - 15px);
+}
+.portfolioTitle  {
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    top: calc(40% - 40px);
+    right: calc(50% - 100px);
+    font-size: 40px;
+    line-height: 40px;
+    color: #1c1c1c;
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.mat-light { color: rgba(255, 255, 255, 1); }
+.material-icons.mat-light.mat-inactive { color: rgba(255, 255, 255, 0.3); }

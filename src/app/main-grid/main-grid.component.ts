@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {DomSanitizer} from "@angular/platform-browser";
 
+
 @Component({
   selector: 'app-main-grid',
   templateUrl: './main-grid.component.html',
@@ -111,6 +112,8 @@ export class MainGridComponent implements OnInit {
         'e9d985',
         'e9d985'
     ];
+
+
     index = 0;
     buffer = 0;
     forward = true;
