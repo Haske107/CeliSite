@@ -5,7 +5,7 @@ import {DomSanitizer} from "@angular/platform-browser";
 @Component({
   selector: 'app-main-grid',
   templateUrl: './main-grid.component.html',
-  styleUrls: ['./main-grid.component.css']
+  styleUrls: ['./main-grid.component.css'],
 })
 export class MainGridComponent implements OnInit {
 
@@ -113,6 +113,8 @@ export class MainGridComponent implements OnInit {
         'e9d985'
     ];
 
+    pos: string;
+    right: string;
 
     index = 0;
     buffer = 0;
@@ -183,4 +185,6 @@ export class MainGridComponent implements OnInit {
            this.buffer++;
        }
     }
+
+
 }

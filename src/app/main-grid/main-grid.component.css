@@ -4,17 +4,53 @@
     left: 10px;
     size: 20px;
     z-index: 1;
+    cursor: pointer;
+}
+.sidenav_button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+md-sidenav{
+    width: 300px;
+    border-left: 2px solid black;
+    color: black;
+    -moz-box-shadow:    inset 0 0 20px #000000;
+    -webkit-box-shadow: inset 0 0 20px #000000;
+    box-shadow:         inset 0 0 20px #000000;
+}
+/deep/ .md-sidenav-transition .md-sidenav-backdrop.mat-sidenav-shown {
+    background: grey;  /* replace skyblue with any color */
 }
 h5 {
-    position: absolute;
-    top: 50px;
-    left: calc(50% - 140px);
     text-align: center;
-//font-family: 'Cinzel', serif;
-//font-family: 'Poiret One', cursive;
+    font-size: 29px;
+    line-height: 20px;
     font-family: 'Playfair Display SC', serif;
-    font-size: 45px;
-    color: whitesmoke;
+    color: white;
+    position: absolute;
+    top: calc(50% - 35px);
+}
+h6  {
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+
+}
+p{
+    font-family: 'Playfair Display SC', serif;
+    position: absolute;
+    top: 70%;
+    color: white;
+    max-width: 80%;
+}
+hr {
+    position: absolute;
+    top: 55%;
+    color: white;
 }
 .wrapper    {
     height: 100vh;
@@ -28,141 +64,162 @@ md-grid-list    {
     margin: 0 17.5% 0;
     padding-top: 10px;
     padding-bottom: 10px !important;
-    height: auto;
+    height: 2000px;
 }
 md-grid-tile    {
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 }
-
-.banner {
+.Ally {
     width: 100%;
     height: 100%;
-    background-image: url("FacelessGod.jpg");
+    background-image: url("../../Imgs/Ally_1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 25%;
     transition: 1.4s ease;
+    opacity: 1;
 }
-.banner:hover {
+.Ally:hover {
+    opacity: .2;
+    filter: blur(1px);
 
 }
-
-
-.Img2 {
+.Pasajeros_en_Trance {
     width: 100%;
     height: 100%;
-    background-image: url("./Office.jpg");
+    background-image: url("../../Imgs/X.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: 1.4s ease;
 
 }
-.Img2:hover   {
-    background-color: transparent;
-    transition: 1s ease;
+.Pasajeros_en_Trance_Text {
+    position: absolute;
+    top: 60px;
+    line-height:25px;
+    text-align: left;
+}
+.Pasajeros_en_Trance_Subtext    {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    line-height:25px;
+    text-align: left;
+}
+.Pasajeros_en_Trance_Paragraph {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    line-height:25px;
+    text-align: left;
+}
+.Pasajeros_en_Trance:hover   {
+    opacity: .2;
+    filter: blur(1px);
 }
 
-.Img1 {
+.Faceless_God {
     width: 100%;
     height: 100%;
-    background-image: url("./sekhem.jpg");
+    background-image: url("../../Imgs/Faceless_God_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: 1.4s ease;
-
+    opacity: 1;
 }
-.Img1:hover   {
-    background-color: transparent;
-    transition: 1s ease;
+.Faceless_God:hover {
+    opacity: .2;
+    filter: blur(1px);
 }
 
-.Img3 {
+.Carmensita {
     width: 100%;
     height: 100%;
-    background-image: url("./pool.jpg");
+
+    background-image: url("../../Imgs/Carmensita_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 5%;
+    background-position: calc(50% - 50px) 5%;
     transition: 1.4s ease;
-
+    opacity: 1;
 }
-.Img3:hover   {
-    background-color: transparent;
-    transition: 1s ease;
+.Carmensita:hover   {
+    opacity: .2;
+    filter: blur(1px);
 }
 
-.Img4 {
+.COS {
     width: 100%;
     height: 100%;
-    background-image: url("./Desert.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    transition: 1.4s ease;
-
-}
-.Img4:hover   {
-    background-color: transparent;
-    transition: 1s ease;
-}
-
-.Img5 {
-    width: 100%;
-    height: 100%;
-    background-image: url("./gamberger.jpg");
+    background-image: url("../../Imgs/COS_1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
     transition: 1.4s ease;
 
 }
-.Img5:hover   {
-    background-color: transparent;
-    transition: 1s ease;
+.COS:hover   {
+    opacity: .2;
+    filter: blur(1px);
 }
 
-.Img6 {
+.The_Night_Bell {
     width: 100%;
     height: 100%;
-    background-image: url("./Carmensita.jpg");
+    background-image: url("../../Imgs/the_Night_Bell_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
     transition: 1.4s ease;
 
 }
-.Img6:hover   {
-    background-color: transparent;
-    transition: 1s ease;
+.The_Night_Bell_Text{
+    size: 14px;
+}
+.The_Night_Bell:hover   {
+    opacity: .2;
+    filter: blur(1px);
 }
 
-.Img7 {
+.My_Girlfriend_Is_A_Shovel {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Imgs/My_Girlfriend_Is_A_Shovel_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    transition: 1.4s ease;
+}
+.My_Girlfriend_Is_A_Shovel:hover   {
+    opacity: .2;
+    filter: blur(1px);
+}
+.La_Gata {
      width: 100%;
      height: 100%;
-     background-image: url("./LaPalma.jpg");
+     background-image: url("../../Imgs/La_Gata_1.png");
      background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 30%;
      transition: 1.4s ease;
-
  }
-.Img7:hover   {
-    background-color: transparent;
-    transition: 1s ease;
+.La_Gata:hover   {
+    opacity: .2;
+    filter: blur(1px);
 }
-.Img8 {
+.Sekhem{
     width: 100%;
     height: 100%;
-    background-image: url("./GamTitle.jpg");
+    background-image: url("../../Imgs/Sekhem_1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
     transition: 1.4s ease;
 
 }
-.Img8:hover   {
-    background-color: transparent;
-    transition: 1s ease;
+.Sekhem:hover   {
+    opacity: .2;
+    filter: blur(1px);
 }

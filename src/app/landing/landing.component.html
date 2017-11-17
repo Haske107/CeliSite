@@ -4,55 +4,56 @@
         <h5>
             Celina Biurrun
         </h5>
-        <hr>
+        <!-- INFO BUTTONS -->
+        <div class="contactbuttons">
+                <md-icon
+                        mat-font-library="material-icons"
+                        class="material-icons"
+                        style="margin-left: 10px;"
+                        mdTooltip="Venice, California"
+                        [mdTooltipPosition]="'below'">
+                    location_on
+                </md-icon>
+                <md-icon
+                        mat-font-library="material-icons"
+                        class="material-icons"
+                        mdTooltip="@CeliBiu"
+                        [mdTooltipPosition]="'below'" >
+                    photo
+                </md-icon>
+                <md-icon
+                        mat-font-library="material-icons"
+                        class="material-icons"
+                        mdTooltip="+1 (956) 371 6042"
+                        [mdTooltipPosition]="'below'">
+                    phone
+                </md-icon>
+                <md-icon
+                        mat-font-library="material-icons"
+                        class="material-icons"
+                        mdTooltip="biurruncelina@gmail.com"
+                        [mdTooltipPosition]="'below'">
+                    email
+                </md-icon>
+        </div>
+        <md-card class="drawer">
+            PEEEKABOOO
+        </md-card>
         <!-- BIO-->
-        <p class="Bio">Celina Biurrun is an Argentinian filmmaker who grew up in Mexico, Brazil and Switzerland. She made her first acting debut on the short film ‘Sekhem' in 2014, and has worked since then as an actress, producer and director. She's the co-founder of the Los Angeles based art collective Cosmo Entertainment and the Media Production Company Trikon, Inc. Celina also works as the manager of accounts at Maraca Inc, a film production company based in Venice Beach, CA.
+        <p class="Bio">
+            Celina Biurrun is an Argentinian filmmaker who grew up in Mexico, Brazil and Switzerland. She made her first acting debut on the short film ‘Sekhem' in 2014, and has worked since then as an actress, producer and director. She's the co-founder of the Los Angeles based art collective Cosmo Entertainment and the Media Production Company Trikon, Inc. Celina also works as the manager of accounts at Maraca Inc, a film production company based in Venice Beach, CA.
+            and has worked since then as an actress, producer and director. She's the co-founder of the Los Angeles based art collective Cosmo Entertainment and the Media Production Company Trikon, Inc. Celina also works as the manager of accounts at Maraca Inc, a film production company based in Venice Beach, CA.
+
         </p>
     </md-card>
 
     <!-- BOTTOM BUTTON -->
-    <div class="portfoliocard">
-        <h6 class="portfolioTitle">Portfolio</h6>
-        <button md-fab color="accent" routerLink="/Main" class="portfolio-button">
-            <md-icon mat-font-library="material-icons" class="material-icons  profile" >arrow_forward</md-icon>
-        </button>
-    </div>
+    <md-card class="portfolio-card" (click)="toPortfolio()" >
+        <h6 class="portfolio-title">Portfolio</h6>
+            <md-icon mat-font-library="material-icons" class="material-icons  portfolio-button-arrow"  >arrow_forward</md-icon>
+    </md-card>
 </div>
 
-<!-- INFO BUTTONS -->
-<md-card class="contactbuttons">
-    <div>
-        <md-icon
-                mat-font-library="material-icons"
-                class="material-icons mat-light"
-                style="margin-left: 10px;"
-                mdTooltip="Venice, California"
-                [mdTooltipPosition]="'above'">
-            location_on
-        </md-icon>
-        <md-icon
-                mat-font-library="material-icons"
-                class="material-icons mat-light"
-                mdTooltip="@CeliBiu"
-                [mdTooltipPosition]="'above'" >
-            photo
-        </md-icon>
-        <md-icon
-                mat-font-library="material-icons"
-                class="material-icons mat-light"
-                mdTooltip="+1 (956) 371 6042"
-                [mdTooltipPosition]="'above'">
-            phone
-        </md-icon>
-        <md-icon
-                mat-font-library="material-icons"
-                class="material-icons mat-light"
-                mdTooltip="biurruncelina@gmail.com"
-                [mdTooltipPosition]="'above'">
-            email
-        </md-icon>
-    </div>
-</md-card>
 
 
 

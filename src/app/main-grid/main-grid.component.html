@@ -1,53 +1,157 @@
-<div     (scroll)="onScroll($event)"
-        class="wrapper"
-        [ngStyle]=" {'background': 'linear-gradient(to top, '+color+', black)'}">
+<md-sidenav-container >
+  <md-sidenav  mode="push" align="end" #sidenav color="accent">
+
+  </md-sidenav>
+  <div     (scroll)="onScroll($event)"
+           class="wrapper"
+           [ngStyle]=" {'background': 'linear-gradient(to top, '+color+', black)'}">
 
 
-  <md-grid-list cols="4" rowHeight="1:1" [gutterSize]="10">
-    <md-grid-tile [colspan]="4" [rowspan]="1">
-      <md-card class="banner">
+    <md-grid-list cols="4" rowHeight="1:1" [gutterSize]="10" [ngStyle]="{position: pos, right: right}">
+      <!-- Banner -->
+      <md-grid-tile [colspan]="4" [rowspan]="1" >
+        <h5>Ally</h5>
+        <h6>Writer | Director</h6>
+        <hr>
+        <p>Coming soon</p>
+        <md-card class="Ally">
+        </md-card>
+      </md-grid-tile>
+      <!-- Second Tile -->
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>Carmensita</h5>
+        <h6>Lead Actor</h6>
+        <hr>
+        <p>After five years of abandonment, Carmen’s mother returns home.</p>
+        <md-card class="Carmensita" >
+        </md-card>
+      </md-grid-tile>
+      <!-- Pasajeros En Trance -->
+      <md-grid-tile [colspan]="2" [rowspan]="2">
+        <h5 class="Pasajeros_en_Trance_Text">Pasajeros en Trance</h5>
+        <h6 class="Pasajeros_en_Trance_Subtext"> Co-Lead Actor</h6>
+        <hr>
+        <p class="Pasajeros_en_Trance_Paragraph">A psychological voyage through the memory of time-obsessed office clerk Marcel as he chases the woman who stole his golden pocket watch</p>
+        <md-card class="Pasajeros_en_Trance" >
+        </md-card>
+      </md-grid-tile>
+      <!--  Carmensita -->
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>Faceless God</h5>
+        <h6>Co-Lead Actor</h6>
+        <hr>
+        <p>Naked people in the dark</p>
+        <md-card class="Faceless_God">
+        </md-card>
+      </md-grid-tile>
+      <!-- Fourth Tile -->
+      <md-grid-tile [colspan]="2" [rowspan]="1">
+        <h5>COS</h5>
+        <h6>Actor | Producer</h6>
+        <hr>
+        <p>Modeling Film</p>
+        <md-card class="COS">
+        </md-card>
+      </md-grid-tile>
+      <md-grid-tile [colspan]="1" [rowspan]="1">
+        <h5>La Gata</h5>
+        <h6>Production Assistant</h6>
+        <hr>
+        <p>Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+        <md-card class="La_Gata">
+        </md-card>
+      </md-grid-tile>
+      <!-- Fifth Tile -->
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>La Gata</h5>
+        <h6>Production Assistant</h6>
+        <hr>
+        <p>Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+        <md-card class="La_Gata">
+        </md-card>
+      </md-grid-tile>
+      <md-grid-tile [colspan]="2" [rowspan]="2">
+        <h5 class="The_Night_Bell_Text">The Night Bell</h5>
+        <h6>Supporting Actor</h6>
+        <hr>
+        <p>A nurse’s job at a morgue turns into a nightmare as the female corpses come to life</p>
+        <md-card class="The_Night_Bell">
+        </md-card>
+      </md-grid-tile>
+      <!-- Sixth Tile -->
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>Sekhem</h5>
+        <h6>Lead Actor</h6>
+        <hr>
+        <p>An exploration of the relationship artist-art following a sculpture artist and her creative process.</p>
+        <md-card class="Sekhem">
+        </md-card>
+      </md-grid-tile>
+      <!-- Seventh Tile-->
+      <md-grid-tile [colspan]="2" [rowspan]="2">
+        <h5>My Girlfriend Is A Shovel</h5>
+        <h6>Supporting Actor</h6>
+        <hr>
+        <p>When Coral realizes she’s spent the last three years dating a shovel, she vows never to make the same mistake again.</p>
+        <md-card class="My_Girlfriend_Is_A_Shovel">
+        </md-card>
+      </md-grid-tile>
+      <!-- Eighth Tile -->
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>La Gata</h5>
+        <h6>Production Assistant</h6>
+        <hr>
+        <p>Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+        <md-card class="La_Gata">
+        </md-card>
+      </md-grid-tile>
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>La Gata</h5>
+        <h6>Production Assistant</h6>
+        <hr>
+        <p>Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+        <md-card class="La_Gata">
+        </md-card>
+      </md-grid-tile>
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>La Gata</h5>
+        <h6>Production Assistant</h6>
+        <hr>
+        <p>Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+        <md-card class="La_Gata">
+        </md-card>
+      </md-grid-tile>
 
-      </md-card>
-    </md-grid-tile>
-    <md-grid-tile [colspan]="1" [rowspan]="2">
-      <md-card class="Img1" >
 
-      </md-card>
-    </md-grid-tile>
-    <md-grid-tile [colspan]="3" [rowspan]="1">
-      <md-card class="Img3">
+      <md-grid-tile [colspan]="2" [rowspan]="2">
+        <h5>La Gata</h5>
+        <h6>Production Assistant</h6>
+        <hr>
+        <p>Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+        <md-card class="La_Gata">
+        </md-card>
+      </md-grid-tile>
 
-      </md-card>
-    </md-grid-tile>
-    <md-grid-tile [colspan]="2" [rowspan]="1">
-      <md-card class="Img5">
+      <md-grid-tile [colspan]="1" [rowspan]="2">
+        <h5>La Gata</h5>
+        <h6>Production Assistant</h6>
+        <hr>
+        <p>Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+        <md-card class="La_Gata">
+        </md-card>
+      </md-grid-tile>
 
-      </md-card>
-    </md-grid-tile>
-    <md-grid-tile [colspan]="1" [rowspan]="1">
-      <md-card class="Img8">
-
-      </md-card>
-    </md-grid-tile>
-    <md-grid-tile [colspan]="2" [rowspan]="1">
-      <md-card class="Img4">
-
-      </md-card>
-    </md-grid-tile>
-    <md-grid-tile [colspan]="2" [rowspan]="2">
-      <md-card class="Img6">
-
-      </md-card>
-    </md-grid-tile>
-    <md-grid-tile [colspan]="2" [rowspan]="1">
-      <md-card class="Img7">
-
-      </md-card>
-    </md-grid-tile>
-  </md-grid-list>
-</div>
+    </md-grid-list>
+  </div>
 
 
-<md-icon mat-font-library="material-icons" class="back-button mat-light" routerLink="/Landing">arrow_back</md-icon>
+  <md-icon mat-font-library="material-icons" class="back-button mat-light" routerLink="/Landing">arrow_back</md-icon>
+
+
+</md-sidenav-container>
+
+<button md-raised-button="" class="sidenav_button" (click)="sidenav.open()">
+  More Info
+</button>
 
 

@@ -7,5 +7,5 @@
 .material-icons.mat-light { color: rgba(255, 255, 255, 1); }
 .material-icons.mat-light.mat-inactive { color: rgba(255, 255, 255, 0.3); }
 
-button:focus, md-icon:focus {outline:0;}
+button:focus, md-icon:focus, md-card:focus {outline:0;}
 
