@@ -1,8 +1,10 @@
 .back-button    {
     position: fixed;
-    top: 10px;
-    left: 10px;
-    size: 20px;
+    top: calc(50vh - 50px);
+    left: 50px;
+    font-size: 100px;
+    color: #c7c7c7;
+    opacity: .4;
     z-index: 1;
     cursor: pointer;
 }
@@ -67,30 +69,78 @@ md-grid-list    {
     height: 2000px;
 }
 md-grid-tile    {
+    padding: -50px;
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border: solid 2px black;
+    transition: all .8s ease-in-out;
 }
 .Ally {
     width: 100%;
     height: 100%;
-    background-image: url("../../Imgs/Ally_1.png");
+    background-image: url("../../Assets/Ally-Side.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 25%;
+    background-position: 50% 90%;
     transition: 1.4s ease;
-    opacity: 1;
+    
 }
 .Ally:hover {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
+
+}
+.Gamberger {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Assets/Gamberger.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    transition: 1.4s ease;
+    
+}
+.Gamberger:hover {
+    
+    //filter: blur(1px);
+
+}
+.Carmen {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Assets/Carmen.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 57%;
+    transition: 1.4s ease;
+    
+}
+.Carmen:hover {
+    
+    //filter: blur(1px);
+
+}
+.Sol {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Assets/Sol.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    transition: 1.4s ease;
+    
+}
+.Sol:hover {
+    
+    //filter: blur(1px);
 
 }
 .Pasajeros_en_Trance {
     width: 100%;
     height: 100%;
-    background-image: url("../../Imgs/X.jpg");
+    background-image: url("../../Assets/Pasajeros.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 52%;
     transition: 1.4s ease;
 
 }
@@ -98,25 +148,23 @@ md-grid-tile    {
     position: absolute;
     top: 60px;
     line-height:25px;
-    text-align: left;
+    text-align: center;
 }
 .Pasajeros_en_Trance_Subtext    {
     position: absolute;
     top: 125px;
-    left: 0;
     line-height:25px;
-    text-align: left;
+    text-align: center;
 }
 .Pasajeros_en_Trance_Paragraph {
     position: absolute;
     top: 170px;
-    left: 0;
     line-height:25px;
-    text-align: left;
+    text-align: center;
 }
 .Pasajeros_en_Trance:hover   {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
 }
 
 .Faceless_God {
@@ -125,13 +173,13 @@ md-grid-tile    {
     background-image: url("../../Imgs/Faceless_God_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 8%;
     transition: 1.4s ease;
-    opacity: 1;
+    
 }
 .Faceless_God:hover {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
 }
 
 .Carmensita {
@@ -141,19 +189,19 @@ md-grid-tile    {
     background-image: url("../../Imgs/Carmensita_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: calc(50% - 50px) 5%;
+    background-position: 50% 20%;
     transition: 1.4s ease;
-    opacity: 1;
+    
 }
 .Carmensita:hover   {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
 }
 
 .COS {
     width: 100%;
     height: 100%;
-    background-image: url("../../Imgs/COS_1.png");
+    background-image: url("../../Assets/COS.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
@@ -161,8 +209,8 @@ md-grid-tile    {
 
 }
 .COS:hover   {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
 }
 
 .The_Night_Bell {
@@ -179,8 +227,8 @@ md-grid-tile    {
     size: 14px;
 }
 .The_Night_Bell:hover   {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
 }
 
 .My_Girlfriend_Is_A_Shovel {
@@ -193,8 +241,8 @@ md-grid-tile    {
     transition: 1.4s ease;
 }
 .My_Girlfriend_Is_A_Shovel:hover   {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
 }
 .La_Gata {
      width: 100%;
@@ -202,24 +250,40 @@ md-grid-tile    {
      background-image: url("../../Imgs/La_Gata_1.png");
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: 50% 30%;
+     background-position: 50% 55%;
      transition: 1.4s ease;
  }
 .La_Gata:hover   {
-    opacity: .2;
-    filter: blur(1px);
+    
+    //filter: blur(1px);
 }
-.Sekhem{
+.Sekhem {
     width: 100%;
     height: 100%;
-    background-image: url("../../Imgs/Sekhem_1.png");
+    background-image: url("../../assets/Sekhem.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    transition: 1.4s ease;
+}
+.Sekhem:hover   {
+    
+    //filter: blur(1px);
+}
+
+
+
+.Time   {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/Time.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
     transition: 1.4s ease;
+}
+.Time:hover   {
+    
+    //filter: blur(1px);
+}
 
-}
-.Sekhem:hover   {
-    opacity: .2;
-    filter: blur(1px);
-}
