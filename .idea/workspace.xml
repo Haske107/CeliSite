@@ -2,6 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="646d20b2-d527-428d-9943-4a4068a83c9d" name="Default" comment="Semi Final Changes">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Ally-Side.1bbcde034cf7ebfe3d4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Aniise.0f9212ddea5b77f5132f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/April.e4e23af6d52847090c38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/COS.875bbebf053a1c899b66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Carmen.e1bdf553b6d0fc75969b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Carmensita.defe2d5862d769df7576.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Cuba.d050ff27794d6fe4cfb5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Eclipse.8da4918abf9b3bb8c2b6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Faceless_God_1.0ebef3f19746328c5e15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Gamberger.d5123369484c3b60b2e3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Jaar.3128f79b3cda1343a16e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/La_Gata_1.03a2962b5f331d0df8df.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Meddle.e787618047e053dbb12b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Pasajeros.0ed5031efb35bf4692be.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Sekhem.13855534b98a31f024c8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Sol.5604ee563c609b3574a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Time.3cbe838689decd1a9dcf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Warehouse.c9d8307c31cea8c7b9af.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Zeri.fbd22e87de24910bf7dc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Ally-Face.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Ally-Face.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Ally-Galaxy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Ally-Side.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Aniise.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/April.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/COS.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Carmen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Carmensita.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/ColorGrad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Cuba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Eclipse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Gamberger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Jaar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Land1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Land2.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Land3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Land4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Land5.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Land6.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Land7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Meddle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Pasajeros.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Sekhem.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Sekhem.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Sol.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Time.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Warehouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/Zeri.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/the_Night_Bell_1.92e74e0bdec53bbf9227.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.bundle.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -201,24 +267,6 @@
               <item name="CeliSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="CeliSite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CeliSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CeliSite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CeliSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CeliSite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CeliSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CeliSite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="info-dialog" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -304,19 +352,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92931000" />
+    <option name="totallyTimeSpent" value="93497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-608" width="2560" height="1440" extended-state="0" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28848922" sideWeight="0.49375" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28848922" sideWeight="0.49375" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
