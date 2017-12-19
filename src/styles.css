@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Playfair+Display+SC:400,700|Poiret+One|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Cinzel+Decorative:400,700|Poiret+One|Raleway');
 
 
 /* Rules for using icons as white on a dark background. */

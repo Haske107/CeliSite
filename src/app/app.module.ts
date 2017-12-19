@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
-import { MainGridComponent } from './main-grid/main-grid.component';
 import { ItempageComponent } from './itempage/itempage.component';
 import {AppRouter} from "./app.router";
 import {AlertModule} from "ngx-bootstrap";
@@ -15,9 +14,8 @@ import { InfoDialogComponent } from './info-dialog/info-dialog.component';
   declarations: [
     AppComponent,
     LandingComponent,
-    MainGridComponent,
     ItempageComponent,
-    InfoDialogComponent
+    InfoDialogComponent,
   ],
   imports: [
       BrowserAnimationsModule,

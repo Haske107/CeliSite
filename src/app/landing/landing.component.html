@@ -1,23 +1,309 @@
-<div class="container">
+
+<div class="container" >
     <div class="row" >
-        <div class="col-md-8 col-md-offset-2 ">
-            <md-grid-list  cols="2" rowHeight="1:1" [gutterSize]="10" class="list">
-                <md-grid-tile [colspan]="1" [rowspan]="1">
-one
-                </md-grid-tile>
-                <md-grid-tile [colspan]="1" [rowspan]="1">
-one
-                </md-grid-tile>
-                <md-grid-tile [colspan]="1" [rowspan]="1" >
-                    <h3> Celina Biurrun</h3>
-                    <hr>
-                    <p>  Celina Biurrun is an Argentinian filmmaker who grew up in Mexico, Brazil and Switzerland. She made her first acting debut on the short film ‘Sekhem' in 2014, and has worked since then as an actress, producer and director. She's the co-founder of the Los Angeles based art collective Cosmo Entertainment and the Media Production Company Trikon, Inc. Celina also works as the manager of accounts at Maraca Inc, a film production company based in Venice Beach, CA.
+        <div class="col-md-8 col-md-offset-2 gridcon"  >
+            <div class="hoverwrapper" (mouseover)="EmailOpacity=1" (mouseleave)="EmailOpacity=0">
+                <div  class="TitleCard" [ngStyle]="{opacity: Opacity}" >
+
+                </div>
+                <div class="opac" [ngStyle]="{opacity: Opacity}" >
+                    <h3 class="name"> CELINA BIURRUN</h3>
+                    <hr class="linebreak">
+                    <p  class="text">
+                        I come from San Nicolás de los Arroyos, Argentina and have lived in Mexico, Brazil and Switzerland. I made my first acting debut on the short film ‘Sekhem” in 2014, and have worked as an actress, producer and director since then. I am the co-founder of the Los Angeles based art collective Cosmo Entertainment and the media production company Trikon, Inc.
+                        <br>My greatest teacher in life has been the cultures I became acquainted with while moving from country to country since I was 14. I love the craft of filmmaking because it offers me the chance to still explore diverse life situations that contribute towards mine as well as other people’s inner growth.
                     </p>
+                </div>
+                <md-grid-list   [cols]="2" rowHeight="1:1" [gutterSize]="20" class="list" >
+                    <md-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land6.JPG" class="img">
+                    </md-grid-tile>
+                    <md-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land7.png" class="img">
+                    </md-grid-tile>
+                    <md-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land5.JPG" class="img" >
+                    </md-grid-tile>
+                    <md-grid-tile [colspan]="1" [rowspan]="1" class="uppertile">
+                        <img src="../../assets/Land3.jpg" class="img" >
+                    </md-grid-tile>
+                    <md-grid-tile [colspan]="1" [rowspan]="1" class="mobiletile">
+                        <img src="../../assets/Land1.jpg" class="img" >
+                    </md-grid-tile>
+                    <md-grid-tile [colspan]="1" [rowspan]="1" class="mobiletile">
+                        <img src="../../assets/Land2.JPG" class="img" >
+                    </md-grid-tile>
+                </md-grid-list>
+                <!--INFO BUTTONS -->
+                <div class="contactbuttons" [ngStyle]="{opacity: EmailOpacity}" >
+                    <md-icon class="emailicon">
+                        email
+                    </md-icon>
+                    <h3 class="email">        BiurrunCelina@gmail.com
+                    </h3>
+                </div>
+
+                <!-- MOBILE PORTFOLIO TITLE -->
+                <h3 class="portfolio_title" #PortfolioTitle>Portfolio</h3>
+                <md-icon class="material-icons portfolio_icon" (click)="scroll(PortfolioTitle)">keyboard_arrow_down</md-icon>
+            </div>
+            <!-- ----------------------------------------------------------------------------------------------->
+            <md-grid-list cols="4" rowHeight="1:1" [gutterSize]="15"  class="gridlist">
+
+
+
+
+                <!-- ALLY -->
+                <md-grid-tile class="gridtile" [colspan]="4" [rowspan]="1" >
+                    <div class="textwrap">
+                        <h6 class="h6" >Writer | Director</h6>
+                        <h5 class="h5" >ALLY</h5>
+                        <hr class="hr">
+                        <p class="para" >An odyssey into the human mind discovering both sides of the subconsious spectrum.</p>
+                    </div>
+                    <md-card class="Ally"></md-card>
                 </md-grid-tile>
-                <md-grid-tile [colspan]="1" [rowspan]="1">
-one
+
+
+                <!-- PASAJEROS EN TRANCE -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" > Co-Lead Actor</h6>
+                        <h5 class="h5" >PASAJEROS EN TRANCE</h5>
+                        <hr class="hr">
+                        <p class="para"  >A psychological voyage through the memory of time-obsessed office clerk Marcel as he chases the woman who stole his golden pocket watch</p>
+                    </div>
+                    <md-card class="Pasajeros_en_Trance" ></md-card>
                 </md-grid-tile>
+
+
+                <!-- COS -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Actor | Producer</h6>
+                        <h5 class="h5" >COS</h5>
+                        <hr class="hr">
+                        <p class="para" >A woman discovers many sides to her inner self through fashion</p>
+                    </div>
+                    <md-card class="COS">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- APRIL 19TH -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Director | Lead</h6>
+                        <h5 class="h5" >Avril 19</h5>
+                        <hr class="hr">
+                        <p class="para" >A struggling individual ponders psychological hysteria through outer distractions</p>
+                    </div>
+                    <md-card class="April">
+                    </md-card>
+                </md-grid-tile>
+
+
+
+                <!-- CUBA -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+                        <h5 class="h5" >CUBA</h5>
+                        <hr class="hr">
+                        <p class="para" >Fashion Film</p>
+                    </div>
+                    <md-card class="Cuba">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- ECLIPSE -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Producer</h6>
+                        <h5 class="h5" >ECLIPSE</h5>
+                        <hr class="hr">
+                        <p class="para" >Fashion Film</p>
+                    </div>
+                    <md-card class="Eclipse">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- ANIISE -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Model</h6>
+                        <h5 class="h5" >ANIISE BEAUTY</h5>
+                        <hr class="hr">
+                        <p class="para" >Branded Content</p>
+                    </div>
+                    <md-card class="Aniise">
+                    </md-card>
+                </md-grid-tile>
+
+
+                <!-- SEKHEM -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead Actor</h6>
+                        <h5 class="h5" >Sekhem</h5>
+                        <hr class="hr">
+                        <p class="para" >An exploration of the relationship artist-art following a sculpture artist and her creative process.</p>
+                    </div>
+                   <md-card class="Sekhem"></md-card>
+                </md-grid-tile>
+
+                <!--  FACELESS GOD -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Co-Lead</h6>
+
+                        <h5 class="h5" >Faceless God</h5>
+                        <hr class="hr">
+                        <p class="para" >Naked people in the dark</p>
+                    </div>
+                    <md-card class="Faceless_God">
+                    </md-card>
+                </md-grid-tile>
+                <!-- GAMBERGER -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead Actor</h6>
+                        <h5 class="h5" >Gamberger</h5>
+                        <hr class="hr">
+                        <p class="para" >An exploration of the relationship artist-art following a sculpture artist and her creative process.</p>
+                    </div>
+                    <md-card class="Gamberger"></md-card>
+                </md-grid-tile>
+
+                <!-- LA GATA -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Production Assistant</h6>
+                        <h5 class="h5" >La Gata</h5>
+                        <hr class="hr">
+                        <p class="para" >Inspired by Esopo’s tale: ‘La Gatta Innamorata’, the film explores human nature through the concept of ‘nature exceeds nurture’</p>
+                    </div>
+                   <md-card class="La_Gata">
+                    </md-card>
+                </md-grid-tile>
+
+
+                <!-- MARIA DEL CARMEN -->
+                <md-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead Actor</h6>
+                        <h5 class="h5" >Maria Del Carmen</h5>
+                        <hr class="hr">
+                        <p class="para"> María del Carmen debates whether to call her mom</p>
+                    </div>
+                    <md-card class="Carmen">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- SEARCHING FOR JAAR -->
+                <md-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Writer, Lead</h6>
+                        <h5 class="h5" >Searching For Jaar</h5>
+                        <hr class="hr">
+                        <p class="para"> The intricate cycle of life is symbolized through seven metaphysical incidents within someone’s mind.</p>
+                    </div>
+                    <md-card class="Jaar">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- TIME-->
+                <md-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+                        <h5 class="h5" >Time</h5>
+                        <hr class="hr">
+                    </div>
+                    <md-card class="Time">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- MEDDLE-->
+                <md-grid-tile class="gridtile"   [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Model</h6>
+                        <h5 class="h5" >Meddle</h5>
+                        <hr class="hr">
+                    </div>
+                    <md-card class="Meddle">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- SOL Y MILAN -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+                        <h5 class="h5" >Sol Y Milan</h5>
+                        <hr class="hr">
+                    </div>
+
+                    <md-card class="Sol">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- WAREHOUSE -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Co-Lead</h6>
+                        <h5 class="h5" >The Warehouse</h5>
+                        <hr class="hr">
+                    </div>
+                    <md-card class="Warehouse">
+                    </md-card>
+                </md-grid-tile>
+
+                <!-- CARMENSITA -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Lead</h6>
+
+                        <h5 class="h5" >Carmensita</h5>
+                        <hr class="hr">
+                        <p class="para" >After five years of abandonment, Carmen’s mother returns home.</p>
+                    </div>
+                    <md-card class="Carmensita" ></md-card>
+                </md-grid-tile>
+
+                <!-- ZERI -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Producer</h6>
+
+                        <h5 class="h5" >Zeri - Contigo</h5>
+                        <hr class="hr">
+                        <p class="para" >Music Video</p>
+                    </div>
+                    <md-card class="Zeri">
+                    </md-card>
+                </md-grid-tile>
+
+
+
+
+
+                <!-- THE NIGHT BELL -->
+                <md-grid-tile class="gridtile"  [colspan]="4" [rowspan]="1">
+                    <div class="textwrap">
+                        <h6 class="h6" >Supporting</h6>
+                        <h5 class="h5" >The Night Bell</h5>
+                        <hr class="hr">
+                        <p class="para" >A nurse’s job at a morgue turns into a nightmare as the female corpses come to life</p>
+                    </div>
+                    <md-card class="The_Night_Bell">
+                    </md-card>
+                </md-grid-tile>
+
+
+
+
+
+                <!-- --------------------------------------------------------------------------------------------->
             </md-grid-list>
+
         </div>
     </div>
 </div>
@@ -26,36 +312,5 @@ one
 
 
 
-<!-- INFO BUTTONS -->
-<div class="contactbuttons">
-    <md-icon
-            mat-font-library="material-icons"
-            class="material-icons"
-            style="margin-left: 10px;"
-            mdTooltip="Silverlake, Los Angeles"
-            [mdTooltipPosition]="'below'">
-        location_on
-    </md-icon>
-    <md-icon
-            mat-font-library="material-icons"
-            class="material-icons"
-            mdTooltip="@CeliBiu"
-            [mdTooltipPosition]="'below'" >
-        photo
-    </md-icon>
-    <md-icon
-            mat-font-library="material-icons"
-            class="material-icons"
-            mdTooltip="+1 (956) 371 6042"
-            [mdTooltipPosition]="'below'">
-        phone
-    </md-icon>
-    <md-icon
-            mat-font-library="material-icons"
-            class="material-icons"
-            mdTooltip="biurruncelina@gmail.com"
-            [mdTooltipPosition]="'below'">
-        email
-    </md-icon>
-</div>
+
 
