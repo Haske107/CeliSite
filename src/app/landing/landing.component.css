@@ -652,3 +652,121 @@
         color: white;
     }
 }
+
+
+@media only screen and (max-width: 500px) {
+
+
+.portfolio_title    {
+    position: absolute;
+    top: 120vh;
+    left: calc(50% - 150px);
+    font-family: 'Cinzel Decorative', sans-serif;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    opacity: 1;
+
+}
+
+
+.gridlist   {
+    top: 140vh;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+
+
+.email  {
+    font-family: 'Cinzel', sans-serif;
+    color: white;
+    position: absolute;
+    left: 35px;
+    top: 0;
+    font-size: 14px;
+
+}
+.emailicon  {
+    color: white;
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    font-size: 18px;
+}
+.contactbuttons {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 85vh;
+    left: calc(50% - 130px);
+    background-color: transparent;
+    opacity:0;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+    cursor: default;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .portfolio_title    {
+        position: absolute;
+        top: 120vh;
+        left: calc(50% - 150px);
+        font-family: 'Cinzel Decorative', sans-serif;
+        padding-top: 120px;
+        margin-bottom: 20px;
+        font-size: 48px;
+        color: white;
+        opacity: 1;
+
+    }
+
+
+    .gridlist   {
+        top: 140vh;
+        margin-bottom: 20px;
+        padding-top: 100px;
+    }
+
+
+
+    .email  {
+        font-family: 'Cinzel', sans-serif;
+        color: white;
+        position: absolute;
+        left: 35px;
+        top: 0;
+        font-size: 14px;
+
+    }
+    .emailicon  {
+        color: white;
+        position: absolute;
+        left: 5px;
+        top: 15px;
+        font-size: 18px;
+    }
+    .contactbuttons {
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        top: 85vh;
+        left: calc(50% - 130px);
+        background-color: transparent;
+        opacity:0;
+        -webkit-transition: opacity 2s;
+        -moz-transition: opacity 2s;
+        -o-transition: opacity 2s;
+        transition: opacity 2s;
+        cursor: default;
+    }
+}
+
+

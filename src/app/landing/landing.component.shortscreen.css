@@ -1,0 +1,188 @@
+@media only screen and (max-height: 700px) {
+    .container  {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100%;
+        margin: 0 0 0 0;
+        max-width: 100%;
+        padding: 0;
+        background: radial-gradient(circle, #673544 1%, black);
+        right: 0;
+    }
+    .contactbuttons {
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        top: 85vh;
+        left: calc(50% - 190px);
+        background-color: transparent;
+        opacity:0;
+        -webkit-transition: opacity 2s;
+        -moz-transition: opacity 2s;
+        -o-transition: opacity 2s;
+        transition: opacity 2s;
+        cursor: default;
+    }
+    .portfolio_title    {
+        position: absolute;
+        top: 120vh;
+        left: calc(50% - 150px);
+        font-family: 'Cinzel Decorative', sans-serif;
+        padding-top: 30px;
+        margin-bottom: 20px;
+        font-size: 48px;
+        color: white;
+        opacity: 1;
+
+    }
+
+    .portfolio_icon    {
+        position: absolute;
+        top: 93vh;
+        left: calc(50% - 24px);
+        font-size: 48px;
+        color: white;
+        opacity: .5;
+        cursor: pointer;
+
+    }
+    .email  {
+        font-family: 'Cinzel', sans-serif;
+        color: white;
+        position: absolute;
+        left: 30px;
+        top: 0;
+    }
+    .emailicon  {
+        color: white;
+        position: absolute;
+        left: 0;
+        top: 20px;
+        font-size: 25px;
+    }
+
+    .row    {
+    }
+    .img    {
+        height: 100%;
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+    .list    {
+        width: 70%;
+        position: absolute;
+        top: 0;
+        left: 15%;
+    }
+    .gridcon    {
+    }
+    .mobile-list    {;
+        display: none;
+    }
+    .uppertile   {
+        opacity: .2;
+        box-shadow: 0 10px 6px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+
+    }
+    .TitleCard {
+    //background-color: #1c1c1c;
+        width: 55%;
+        height: 440px;
+        z-index: 20;
+        top: calc(50vh - 300px);
+        right: 22.5%;
+        position: absolute;
+        opacity: .4;
+    }
+    .opac   {
+        width: 55%;
+        height: 440px;
+        z-index: 20;
+        top: calc(50vh - 300px);
+        right: 22.5%;
+        position: absolute;
+        opacity: 1;
+        cursor: default;
+    }
+
+    .name  {
+        width: 100%;
+        text-align: center;
+        font-family: 'Cinzel Decorative', serif;
+        position: absolute;
+        top:  10px;
+        font-size:  36px;
+        color: white;
+        padding-bottom: 10px;
+    }
+    .linebreak  {
+        margin: 80px 50px 0 ;
+    }
+
+    .text {
+        padding: 20px 50px 0;
+        font-family: 'Cinzel', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .textwrap   {
+        position: absolute;
+        width: 100%;
+        padding-left: 5px;
+
+    }
+    .h5 {
+        text-align: left;
+        font-size: 29px;
+        line-height: 20px;
+        font-family: 'Cenzil Decorative', serif;
+        color: white;
+    }
+    .h6  {
+        text-align: left;
+        font-family: 'Cenzil', serif;
+        font-size: 20px;
+        line-height: 20px;
+        color: white;
+
+    }
+    .para{
+        font-family: 'Cenzil', serif;
+        top: 70%;
+        color: white;
+        max-width: 80%;
+    }
+    .hr {
+        top: 55%;
+        color: white;
+    }
+    .wrapper    {
+        height: 100vh;
+        overflow-y: scroll;
+        margin-top: 0;
+        background-color: black;
+        background-position: right top;
+    }
+    .gridlist   {
+        top: 138vh;
+        margin-bottom: 20px;
+        width: 100%;
+    //margin: 0 17.5% 0;
+        padding-top: 10px;
+        padding-bottom: 10px !important;
+        height: auto;
+    }
+    .gridtile    {
+        padding: -50px;
+        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    //border: solid 2px black;
+        transition: all .8s ease-in-out;
+    }
+}
