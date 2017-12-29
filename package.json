@@ -7,10 +7,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "postinstall": "ng build --aot -prod",
     "ng": "ng",
     "start": "node ./Server/bin/www",
-    "build": "ng build",
+    "build": "ng build --prod --aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
