@@ -178,17 +178,6 @@
               <item name="CeliSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="CeliSite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CeliSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CeliSite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CeliSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CeliSite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -255,7 +244,7 @@
       <workItem from="1511045913035" duration="936000" />
       <workItem from="1513239173341" duration="6372000" />
       <workItem from="1513301498555" duration="44188000" />
-      <workItem from="1514403084281" duration="2507000" />
+      <workItem from="1514403084281" duration="2604000" />
     </task>
     <task id="LOCAL-00001" summary="Got past the angular update... phew">
       <created>1508116638504</created>
@@ -275,7 +264,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97194000" />
+    <option name="totallyTimeSpent" value="97291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
